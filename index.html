@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">-->
@@ -115,24 +115,24 @@
   </div>
   <br>
   <div class="flex items-center justify-center">
-    <h1 class="font-serif" style="font-size:70px;">
-      The world's destination <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for design
-    </h1> 
+    <div class="grid grid-cols-1 gap-2">
+      <div class="font-serif" style="font-size:70px;">
+        The world's destination <br> 
+      </div>
+      <div class="font-serif" style="font-size:70px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for design
+      </div> 
+      <div class="font-bold text-xl">
+        Get inspired by the work of millions of top-rated designers & agencies around the world
+      </div>
+    </div>
   </div>
-  <div class="flex items-center justify-center">
-    <p class="font-bold">
-      Get inspired by the work of millions of top-rated designers & agencies around the world
-    </p>
-  </div>
-  <br><br>
-  <div class="flex items-center justify-center">
+<br><br>
+<div class="flex items-center justify-center">
   <button class="bg-black rounded-full px-4 py-4 text-white">
     Get started
   </button>
   </div>
-  <br><br>
-</div>
-</div>
 <!--Horizontal card start-->
 <br><br> 
 <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-12">
@@ -209,29 +209,38 @@
 <div class="bg-gray-100 flex items-center justify-center">
   <p class="text-gray-600 ">
     Elegant Contact Form
-  </p>
+  </p> <br><br>
 </div>
 <div class="bg-gray-100 flex items-center justify-center">
-    <div class="grid grid-rows-4 grid-flow-col gap-4 py-4">
-    <div class="colspan-2 ">
-      <input type="text" placeholder="Name" class="bg-white text-gray-500 rounded-lg p-2">
-    </div>
-    <div class="colspan-2 ">
-      <input type="text" placeholder="Email address" class="bg-white text-gray-500 rounded-lg p-2">
-    </div>
-    <div class="colspan-2">
-      <input type="text" placeholder="Subject" class="rounded-lg bg-white text-gray-500 p-2">
-    </div>
-    <div class="colspan-4">
-      <button class="bg-red-600 text-white rounded-lg px-16 py-2">
-        Submit
-      </button>
+    <!--<div class="grid grid-rows-4 grid-flow-col gap-4 py-4">-->
+    <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-2">
+    <div class="">
+      <input type="text" placeholder="Name" class="bg-white text-gray-500 rounded-lg p-2 w-full">
     </div>
     <div class="row-span-3 ">
       <textarea name="msg" cols="40" rows="4" class="bg-white rounded-lg p-2 text-slate-600" > Message.. </textarea>
     </div>
+    <div class="">
+      <input type="text" placeholder="Email address" class="bg-white text-gray-500 rounded-lg p-2 w-full">
+    </div>
+    <div class="">
+      <input type="text" placeholder="Subject" class="rounded-lg bg-white text-gray-500 p-2 w-full">
+    </div>
+    <!--<div class="colspan-2">
+      <button class="bg-red-600 text-white rounded-lg px-16 py-2 w-96">
+        Submit
+      </button>
+    </div>-->
+    </div>
+  </div> 
+  <div class=" flex items-center justify-center bg-gray-100">
+    <br><br>
+    <button class="bg-red-600 rounded px-4 py-2 font-serif text-white w-5/12">
+      Submit
+    </button>
+    <br><br><br>
   </div>
-</div>
+
 <br><br>
 <!--footer-->
 <div class="bg-black text-white p-8">
@@ -343,4 +352,3 @@
 </div>
 </body>
 </html>
-<!--globe -->
